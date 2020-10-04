@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+
+body {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+hr{
+    border: 0.5px solid lightgray;
+}
+
+.x img{
+    width: 32px;
+    height: 32px;
+    padding: 3px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    color: #222222;
+}
+
+.join {
+    display: flex;
+    flex-direction: column;
+    width: 568px;
+    height: 363px;
+    margin: 0 auto;
+    padding: 32px 32px;
+    border: 1px solid black;
+    
+
+}
+
+.facebook{
+    background-color: #4568b2;
+    color: white;
+    padding: 10px 22px 10px 22px;
+    text-align: center;
+
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.facebook a{
+    color: white;
+}
+
+.google {
+    border: 2px solid rgb(118, 118, 118);
+    padding: 10px 22px 10px 22px;
+    color: #222222;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.google a{
+   color: #222222;
+}
+
+.email {
+    background-color: #ff5a5f;
+    color: white;
+    padding: 10px 22px 10px 22px;
+    text-align: center;
+
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.email a{
+    color: white;
+}
+.login{
+    padding-top: 20px;
+}
+
+fieldset {
+    border: 0.5px solid lightgray;
+    border-width: 1px 0 0 0;
+    
+}
+
+legend {
+    text-align: center;
+    color:#767676;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+fieldset legend p{
+    padding: 10px;
+}
+
+.btn{
+    padding-left: 10px;
+}
+
+.btn_g{
+    padding-left: 5px;
+}
+
+.loginfont{
+    color: #008489;
+    font-weight: 600;
+
+}
+
+.loginfont:hover{
+    text-decoration: underline;
+
+}
